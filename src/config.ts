@@ -20,7 +20,7 @@ export const siteConfig = {
     },
     {
       citation: "T. Logan et al., “Comparison study of the electrical nature of two smoke-enhanced sea breeze thunderstorm cases during TRACER,” Journal of Geophysical Research - Atmospheres, 2025, under review.",
-      link: "vv"
+      link: "https://essopenarchive.org/doi/full/10.22541/essoar.175250105.55479606"
     },
   ],
   projects: [
