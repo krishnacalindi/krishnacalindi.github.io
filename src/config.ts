@@ -9,6 +9,7 @@ export const siteConfig = {
     email: "kxc@tamu.edu",
     linkedin: "https://www.linkedin.com/in/krishna-calindi/",
     github: "https://github.com/krishnacalindi/",
+    orcid: "https://orcid.org/0009-0007-3586-6743"
   },
   aboutMe:
     "MS in CS grad student at Texas A&M University, working under Dr. Timothy Logan. Currently building a model to predict severe hail, wind and tornadoes.",
