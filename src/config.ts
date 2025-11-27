@@ -16,11 +16,11 @@ export const siteConfig = {
   skills: ["Python", "Imbalanced learning", "Constrained optimization"],
   publications: [
     {
-      citation: "T. Logan et al., ”Aggie XLMA: A Python based alternative to XLMA”, under preparation.",
+      citation: "Timothy Logan, Krishna Calindi, and Isaac Jones. 2026. Aggie XLMA: A Python based alternative to XLMA (2026). under preparation.",
       link: ""
     },
     {
-      citation: "T. Logan et al., “Comparison study of the electrical nature of two smoke-enhanced sea breeze thunderstorm cases during TRACER,” Journal of Geophysical Research - Atmospheres, 2025, under review.",
+      citation: "Timothy Logan and Krishna Calindi. 2025.  Comparison study of the electrical nature of two smoke-enhanced sea breeze thunderstorm cases during TRACER. Journal of Geophysical Research - Atmospheres (2025). under review.",
       link: "https://essopenarchive.org/doi/full/10.22541/essoar.175250105.55479606"
     },
   ],
