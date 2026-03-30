@@ -12,12 +12,11 @@ export const siteConfig = {
     orcid: "https://orcid.org/0009-0007-3586-6743"
   },
   aboutMe:
-    "MS in CS grad student at Texas A&M University, working under Dr. Timothy Logan. Currently building a model to predict severe hail, wind and tornadoes.",
+    "Master of Science in Compuer Science student at Texas A&M University, graduating Spring 2026. Interested in application-driven machine learning and actively seeking full-time opportunities.",
   skills: ["Python", "Imbalanced learning", "Constrained optimization"],
   publications: [
     {
-      citation: "Timothy Logan, Krishna Calindi, and Isaac Jones. 2026. Aggie XLMA: A Python based alternative to XLMA (2026). under preparation.",
-      link: ""
+      citation: "Timothy Logan and Krishna Calindi. 2026. Employing pseudo-dynamic metrics derived from lightning to diagnose tornadic supercell thunderstorm organization and maintenance. under preparation."
     },
     {
       citation: "Timothy Logan and Krishna Calindi. 2025.  Comparison study of the electrical nature of two smoke-enhanced sea breeze thunderstorm cases during TRACER. Journal of Geophysical Research - Atmospheres (2025). under review.",
@@ -26,11 +25,15 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "Master's Thesis",
+      description: "Trained a deep learning model on four years of lightning, satellite, and precipitation data to predict storm severity outperforming exisitng approaches.",
+      skills: ["Python", "PyTorch", "LibAUC", "classification of imbalanced datasets"]
+    },
+    {
       name: "Aggie XLMA",
-      description:
-        "A Python-based alternative to XLMA. A Windows application to visualize, analyze and interact with lightning data.",
-      link: "https://github.com/krishnacalindi/hlma",
-      skills: ["Python"],
+      description: "Desktop application to analyze lightning data capable of rendering 2.7 million sources in under 1.5 seconds written in C++ with OpenGL.",
+      link: "https://github.com/krishnacalindi/aggie-xlma-cpp",
+      skills: ["C++", "SQL", "OpenGL"],
     }
   ],
   experience: [
@@ -41,7 +44,7 @@ export const siteConfig = {
       bullets: [
         "Spearheaded the development of an application to process lightning data to improve research workflows.",
         "Supported two research publications by analyzing data and producing high-quality figures.",
-        "Built a lightning-based warning model resulting in an abstract submission to 2 conferences",
+        "Built a lightning-based warning model resulting in an abstract submission to several conferences",
       ],
     },
   ],
