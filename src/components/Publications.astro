@@ -6,7 +6,10 @@ const hasPublications =
 
 {
   hasPublications && (
-    <section id="publications" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-black">
+    <section
+      id="publications"
+      class="p-8 sm:p-12 md:p-16 lg:p-24 bg-neutral-900"
+    >
       <div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
           <div class="lg:col-span-4">
@@ -35,9 +38,9 @@ const hasPublications =
                   <div class="group relative">
                     <Component
                       {...linkProps}
-                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-900 rounded-xl sm:rounded-2xl border border-gray-700 transition-all duration-300 ${
+                      class={`block relative p-4 sm:p-6 md:p-8 bg-zinc-800 rounded-xl sm:rounded-2xl border border-emerald-9500 transition-all duration-300 ${
                         publication.link
-                          ? "hover:bg-black hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
+                          ? "hover:bg-neutral-900 hover:shadow-xl hover:border-emerald-950 hover:-translate-y-1"
                           : ""
                       }`}
                     >

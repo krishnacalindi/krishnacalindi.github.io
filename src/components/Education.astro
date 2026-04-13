@@ -5,7 +5,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
 {
   hasEducation && (
-    <section id="education" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-black">
+    <section id="education" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-neutral-900">
       <div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
           <div class="lg:col-span-4">
@@ -21,7 +21,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <div class="lg:col-span-8">
             <div class="space-y-8">
               {siteConfig.education.map((edu) => (
-                <div class="bg-black rounded-lg shadow-sm border border-gray-800 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
+                <div class="bg-zinc-800 rounded-lg shadow-sm border border-emerald-950 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
                   <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
                     <div>
                       <h3 class="text-lg sm:text-xl font-semibold text-gray-50">

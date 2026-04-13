@@ -3,8 +3,8 @@ export const siteConfig = {
   lastName: "Calindi",
   name: "Krishna Calindi",
   title: "Machine Learning Engineer",
-  description: "",
-  accentColor: "#2a8562",
+  description: "Professional portolio of Krishna Calindi.",
+  accentColor: "#00bc7d",
   social: {
     email: "kxc@tamu.edu",
     linkedin: "https://www.linkedin.com/in/krishna-calindi/",
@@ -12,7 +12,7 @@ export const siteConfig = {
     orcid: "https://orcid.org/0009-0007-3586-6743"
   },
   aboutMe:
-    "Master of Science in Compuer Science student at Texas A&M University, graduating Spring 2026. Interested in application-driven machine learning and actively seeking full-time opportunities.",
+    "Master of Science in Computer Science student at Texas A&M University, graduating Spring 2026. Interested in application-driven machine learning and actively seeking full-time opportunities.",
   skills: ["Python", "Imbalanced learning", "Constrained optimization"],
   publications: [
     {
@@ -26,7 +26,7 @@ export const siteConfig = {
   projects: [
     {
       name: "Master's Thesis",
-      description: "Trained a deep learning model on four years of lightning, satellite, and precipitation data to predict storm severity outperforming exisitng approaches.",
+      description: "Trained a deep learning model on four years of lightning, satellite, and precipitation data to predict storm severity outperforming existing approaches.",
       skills: ["Python", "PyTorch", "LibAUC", "classification of imbalanced datasets"]
     },
     {
@@ -54,29 +54,29 @@ export const siteConfig = {
       degree: "PhD in Computer Science",
       dateRange: "2026- ????",
       achievements: [
-        "🤞",
-        "🚀",
-        "⭐",
+        "",
+        "",
+        "",
       ],
     },
     {
       school: "Texas A&M University",
-      degree: "Master of Science in Computer Science with Thesis",
+      degree: "Master of Science in Computer Science",
       dateRange: "2024 - 2026",
       achievements: [
         "Graduated with 4.0 GPA",
-        "Conducted research on severe storm prediction",
-        "Contriubted to a publication in Journal of Geophysical Research",
+        "Thesis research in lightning based severe storm prediction",
+        "Contributed to a publication in Journal of Geophysical Research",
       ],
     },
     {
       school: "University of Texas at Dallas",
-      degree: "Bachelor of Science in Computer Science with Minor in Business Administration",
+      degree: "Bachelor of Science in Computer Science",
       dateRange: "2020 - 2024",
       achievements: [
         "Graduated with Collegium 5 Honors and 3.62 GPA",
-        "Achieved Academic Excellence Scholarship all semesters",
-        "Dean's List 3 semesters",
+        "Minor in Business Administration",
+        "Achieved Academic Excellence Scholarship and Dean's List honors",
       ],
     },
   ],

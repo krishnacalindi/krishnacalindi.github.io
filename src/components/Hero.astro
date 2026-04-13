@@ -4,39 +4,14 @@ import { siteConfig } from "../config";
 
 <div
   id="hero"
-  class="relative isolate overflow-hidden bg-black py-24 md:h-screen"
+  class="relative isolate overflow-hidden bg-neutral-800 py-24 md:h-screen"
   style={`--accent-color: ${siteConfig.accentColor}`}
 >
   <!-- Gradient overlay -->
+  <div class="absolute inset-0 -z-10"></div>
   <div
-    class="absolute inset-0 -z-10"
-    style={`background: radial-gradient( ellipse 900px 1200px at 0% 0%, ${siteConfig.accentColor}FF 0%, ${siteConfig.accentColor}CC 25%, ${siteConfig.accentColor}99 50%, ${siteConfig.accentColor}33 75%, transparent 100%), radial-gradient( ellipse 900px 1200px at 100% 100%, ${siteConfig.accentColor}CC 0%, ${siteConfig.accentColor}99 25%, ${siteConfig.accentColor}55 50%,  transparent 100%)`}
+    class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center justify-between gap-16"
   >
-  </div>
-  <svg
-    aria-hidden="true"
-    class="absolute inset-0 -z-10 size-full stroke-gray-500 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
-  >
-    <defs>
-      <pattern
-        x="50%"
-        y={-1}
-        id="0787a7c5-978c-4f66-83c7-11c213f99cb7"
-        width={200}
-        height={200}
-        patternUnits="userSpaceOnUse"
-      >
-        <path d="M.5 200V.5H200" fill="none"></path>
-      </pattern>
-    </defs>
-    <rect
-      fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
-      width="100%"
-      height="100%"
-      opacity="0.1"
-      stroke-width={0}></rect>
-  </svg>
-  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
     <div>
       <h2
         class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-white animate-fade-in"
@@ -52,10 +27,75 @@ import { siteConfig } from "../config";
         >
       </h1>
       <p
-        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-white animate-fade-in animation-delay-400"
+        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-xl md:text-xl/8 font-medium text-white animate-fade-in animation-delay-400"
       >
         {siteConfig.title}
       </p>
+    </div>
+    <div
+      class="hidden md:flex flex-col gap-6 animate-fade-in animation-delay-600 max-w-[40vw]"
+    >
+      {
+        siteConfig.publications[0] && (
+          <a
+            href="#publications"
+            class="group block p-5 border border-white/10 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300"
+          >
+            <p
+              class="text-baseall font-semibold uppercase tracking-widest mb-2"
+              style={{ color: siteConfig.accentColor }}
+            >
+              Latest Publication
+            </p>
+            <p class="text-gray-50 text-base line-clamp-3">
+              {siteConfig.publications[0].citation}
+            </p>
+          </a>
+        )
+      }
+      {
+        siteConfig.projects[0] && (
+          <a
+            href="#projects"
+            class="group block p-5 border border-white/10 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300"
+          >
+            <p
+              class="text-baseall font-semibold uppercase tracking-widest mb-2"
+              style={{ color: siteConfig.accentColor }}
+            >
+              Latest Project
+            </p>
+            <p class="text-white font-semibold text-xl leading-snug group-hover:text-white/90">
+              {siteConfig.projects[0].name}
+            </p>
+            <p class="text-gray-50 text-base mt-1 line-clamp-2">
+              {siteConfig.projects[0].description}
+            </p>
+          </a>
+        )
+      }
+      {
+        siteConfig.experience[0] && (
+          <a
+            href="#experience"
+            class="group block p-5 border border-white/10 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300"
+          >
+            <p
+              class="text-baseall font-semibold uppercase tracking-widest mb-2"
+              style={{ color: siteConfig.accentColor }}
+            >
+              Current Role
+            </p>
+            <p class="text-white font-semibold text-xl leading-snug">
+              {siteConfig.experience[0].title}
+            </p>
+            <p class="text-gray-50 text-base mt-1">
+              {siteConfig.experience[0].company} ·{" "}
+              {siteConfig.experience[0].dateRange}
+            </p>
+          </a>
+        )
+      }
     </div>
   </div>
   <div
