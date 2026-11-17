@@ -37,22 +37,6 @@ export const siteConfig = {
   experience: [
     {
       company: "Texas A&M University",
-      title: "Research Assisstant",
-      dateRange: "",
-      bullets: [
-        
-      ],
-    },
-    {
-      company: "Fire Neural Network",
-      title: "Data Science Intern",
-      dateRange: "",
-      bullets: [
-        
-      ],
-    },
-    {
-      company: "Texas A&M University",
       title: "Student Technician",
       dateRange: "Aug 2024 - May 2026",
       bullets: [
