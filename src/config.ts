@@ -41,8 +41,8 @@ export const siteConfig = {
       dateRange: "Aug 2024 - May 2026",
       bullets: [
         "Spearheaded the development of an application to process lightning data to improve research workflows.",
-        "Supported two research publications by analyzing data and producing high-quality figures.",
-        "Built a lightning-based warning model, resulting in an abstract submission to several conferences",
+        "Supported research publications by analyzing data and producing high-quality figures.",
+        "Built a lightning-based warning model, resulting in abstract submissions to several conferences",
       ],
     },
   ],
